@@ -1,17 +1,57 @@
-# task_manager_app_flutter
+# 📱 Task Management App (Flutter)
 
-A new Flutter project.
+## 🚀 Overview
 
-## Getting Started
+This is a Task Management Flutter app built as part of the Flodo AI assignment. The app allows users to create, update, delete, and manage tasks with dependencies.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* ✅ Create, Read, Update, Delete (CRUD)
+* 🔍 Search tasks by title
+* 🎯 Filter tasks by status
+* ⏳ 2-second loading delay on save
+* 🔗 Task dependency (Blocked By)
+* 📅 Due date selection
+* 💾 Persistent storage using Hive
+* ✏️ Edit existing tasks
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Tech Stack
+
+* Flutter (Dart)
+* Provider (State Management)
+* Hive (Local Database)
+
+---
+
+## 📱 How to Run
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+## 🎯 Track
+
+**Track B: Mobile Specialist**
+
+---
+
+## 🤖 AI Usage
+
+* Used ChatGPT for guidance in Flutter setup and feature implementation.
+* Fixed issues like state management bugs and UI improvements with AI help.
+
+---
+
+## 💡 Key Highlight
+
+The "Blocked Task" feature ensures tasks are visually disabled until dependent tasks are completed.
+
+---
+
